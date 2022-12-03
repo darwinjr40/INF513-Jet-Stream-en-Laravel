@@ -9,5 +9,5 @@
 @endsection
 
 @section('content')
- <h1>nise</h1>
+@livewire('persona.lw-show',['id'=>$id])
 @endsection
